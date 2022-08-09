@@ -104,6 +104,8 @@ body {
     display: block;
     color: black;
     text-shadow: 1px 1px 1px gray;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
 }
 
 .fa-brands {
@@ -185,6 +187,8 @@ footer i:hover {
     font-weight: 500;
     display: block;
     text-shadow: 1px 0.5px 1px gray;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
 }
 
 .cat {
