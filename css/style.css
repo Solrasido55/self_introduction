@@ -1,0 +1,229 @@
+body {
+    margin: 0px;
+}
+
+.bg {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    z-index: -1;
+}
+
+.bg-video {
+    width: 100%;
+    height: 100vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    z-index: -1;
+    position: fixed;
+}
+
+.navbar {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    background-color: darkslategray;
+    padding: 0;
+    border: 0px;
+}
+
+.nav_logo {
+    font-family: 'Roboto Condensed';
+    color: white;
+}
+.nav_logo i {
+    color: #d49466;
+}
+
+#profile_img {
+    display: block;
+    width : 150px;
+    height: 150px;
+    border: 1px solid #2b3856;
+    transform: scale(1);
+    border-radius: 70%;
+    margin: 0 auto;
+    margin-bottom : 1.5em;
+}
+
+.nav_menu {
+    color: white;
+    list-style: none;
+    line-height: 2em;
+    font-size: 1.5em;
+    padding-left: 0em;
+    font-family: 'Bebas Neue';
+}
+
+.navbar_index {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.click:hover {
+    color: #d49466;
+}
+
+.introduction {
+    margin-left: 260px;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
+.name {
+    font-family: 'Bebas Neue';
+    font-size: 7em;
+    color: darkslategray;
+    font-weight: 900;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.contacts {
+    list-style: none;
+    font-family: 'Oleo Script Swash Caps';
+    opacity: 0.55;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+.introduce {
+    font-family: 'Bebas Neue';
+    font-size: 1.3em;
+    font-weight: 350;
+    display: block;
+    color: black;
+    text-shadow: 1px 1px 1px gray;
+}
+
+.fa-brands {
+    color: darkslategray;
+    opacity: 0.7;
+}
+
+.icons {
+    margin-right: 40px;
+    justify-content: space-around;
+    display: flex;
+}
+footer i:hover {
+    transform: translate(0, -3px);
+    color: #d49466;
+
+}
+
+.hobby  {
+    margin-left: 200px;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
+.img-hobby {
+    display: block;
+    width : 200px;
+    height: 200px;
+    border-radius: 70%;
+    display: flex;
+    float: left;
+}
+
+.game {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.workout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text-hobby {
+    font-family: 'Bebas Neue';
+    font-size: 7em;
+    color: darkslategray;
+    font-weight: 900;
+}
+
+.goal  {
+    margin-left: 260px;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+}
+
+.goal-title {
+    font-family: 'Bebas Neue';
+    font-size: 5em;
+    color: darkslategray;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.goal-text {
+    font-family: 'Bebas Neue';
+    font-size: 2em;
+    color: black;
+    font-weight: 500;
+    display: block;
+    text-shadow: 1px 0.5px 1px gray;
+}
+
+.cat {
+    margin-left: 260px;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    margin-right: 60px;
+}
+
+.cat-title {
+    font-family: 'Bebas Neue';
+    font-size: 5em;
+    color: darkslategray;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.cat-img-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cat-img{
+    width: 150px;
+    height: 150px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    transition: all 0.2s ease-in-out;
+    margin : 0.5em;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cat-img:hover {
+    transform: scale(2);
+    -o-object-fit: cover;
+       object-fit: cover;
+    z-index: 1;
+}
