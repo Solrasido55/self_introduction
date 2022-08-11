@@ -6,18 +6,18 @@ const hobby = container[2].offsetTop
 const cat = container[3].offsetTop
 
 
+function scrollPage(page) {
+    window.scroll({top: page, behavior: 'smooth'})
+}
+
 clicks[0].addEventListener("click", function(){
-    window.scroll({top: introduction, behavior: 'smooth'})
-})
+    scrollPage(introduction)});
 
 clicks[1].addEventListener("click", function(){
-    window.scroll({top: goal, behavior: 'smooth'})
-})
+    scrollPage(goal)});
 
 clicks[2].addEventListener("click", function(){
-    window.scroll({top: hobby, behavior: 'smooth'})
-})
+    scrollPage(hobby)});
 
 clicks[3].addEventListener("click", function(){
-    window.scroll({top: cat, behavior: 'smooth'})
-})
+    scrollPage(cat)});
