@@ -257,7 +257,6 @@ footer i:hover {
 
 .slide-container {
     width: 300vw;
-    transition: all 0.5s;
     height: 100vh;
     transform : translateX(0);
 }
@@ -288,7 +287,7 @@ footer i:hover {
     justify-content: center;
     align-items: center;
 }
-.slide-btn {
+.btn {
     border-radius: 5px;
     height: 25px;
     width: 60px;
