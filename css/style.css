@@ -8,7 +8,6 @@ body {
     height: 100vh;
     flex-direction: column;
     justify-content: center;
-    z-index: -1;
 }
 
 .bg-video {
@@ -31,6 +30,7 @@ body {
     background-color: darkslategray;
     padding: 0;
     border: 0px;
+    z-index: 10;
 }
 
 .nav_logo {
@@ -69,6 +69,7 @@ body {
 
 .click:hover {
     color: #d49466;
+    cursor: pointer;
 }
 
 .introduction {
@@ -230,4 +231,72 @@ footer i:hover {
     -o-object-fit: cover;
        object-fit: cover;
     z-index: 1;
+}
+
+.scroll-container {
+    -ms-scroll-snap-type: y madatory;
+        scroll-snap-type: y madatory;
+
+}
+
+.scroll-area {
+    scroll-snap-align: center;
+}
+
+.portfolio {
+    overflow: hidden;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    margin: 0px, 0px, 0px, 0px;
+    position: relative;
+    width: 100vw;
+}
+
+.slide-container {
+    width: 300vw;
+    transition: all 0.5s;
+    height: 100vh;
+    transform : translateX(0);
+}
+.slide-box {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float:left;
+}
+.slide-box p {
+    margin-top: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 3em;
+}
+
+.slide-btn-box {
+    position: absolute;
+    width: 100vw;
+    height: 100px;
+    z-index: 5;
+    bottom: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-btn {
+    border-radius: 5px;
+    height: 25px;
+    width: 60px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
 }
